@@ -1,7 +1,8 @@
 import React from 'react'
 import reactDom from 'react-dom'
+import App from './views/App'
 
 reactDom.render(
-    <h1>App</h1>,
+    <App />,
     document.getElementById('root')
 )
